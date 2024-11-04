@@ -1,0 +1,102 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #EAD8B1; /* Color de fondo suave */
+}
+
+header {
+    background: #3A6D8C; /* Color de fondo del header */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.titulo {
+    margin: 0;
+    font-size: 2.5em; /* Tamaño del título */
+}
+
+nav {
+    margin-top: 15px;
+}
+
+nav button {
+    margin: 0 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: white; /* Fondo blanco */
+    color: #3A6D8C; /* Color del texto */
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+nav button:hover {
+    background-color: #e7e7e7; /* Color al pasar el mouse */
+}
+
+main {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto; /* Centra el contenido */
+}
+
+h2 {
+    color: #333; /* Color de los subtítulos */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 10px;
+}
+
+input, textarea {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #1057e4; /* Borde gris */
+    border-radius: 5px;
+}
+
+button[type="submit"] {
+    margin-top: 15px;
+    background-color: #4CAF50; /* Color del botón */
+    color: ; /* Texto blanco */
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #3A6D8C; /* Color al pasar el mouse */
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #3A6D8C; /* Fondo suave para el pie de página */
+}
+/* Estilos del Modal de Login */
+.hidden {
+    display: none;
+}
+
+.login-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
